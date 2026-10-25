@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Arrow Escape Puzzle",
+    "slug": "arrow-escape-puzzle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFFFFF",
+      "image": "./public/images/Minimalist Orange and Black Arrow Maze.png",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "package": "com.arrowescape.puzzle",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "plugins": [
+      "expo-audio",
+      "expo-asset",
+      "expo-font",
+      "expo-system-ui",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./public/images/Minimalist Orange and Black Arrow Maze.png",
+          "backgroundColor": "#FFFFFF",
+          "resizeMode": "contain",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "icon": "./public/images/Minimalist Orange and Black Arrow Maze.png",
+    "web": {
+      "favicon": "./public/images/Minimalist Orange and Black Arrow Maze.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a49e31df-55ac-449d-a9c1-d55296956433"
+      }
+    }
+  }
+}

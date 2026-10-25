@@ -1,0 +1,22 @@
+node_modules
+
+.expo/
+.tools/
+.npm-cache/
+.expo-*-check/
+.expo-*-export/
+.expo-audio-native/
+tests/*-preview.json
+
+# CNG: regenerate native projects from Expo config/plugins.
+/android/
+/ios/
+.expo*/
+
+.expo-audio-check/
+
+.expo-audio-check/
+
+.expo-audio-check/
+
+.expo/

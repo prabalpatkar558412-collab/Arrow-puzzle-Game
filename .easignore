@@ -1,0 +1,18 @@
+node_modules
+
+.expo/
+.tools/
+.npm-cache/
+.expo-*-check/
+.expo-*-export/
+.expo-audio-native/
+tests/*-preview.json
+
+# CNG: regenerate native projects from Expo config/plugins.
+/android/
+/ios/
+.expo*/
+
+# Never upload Git metadata or local test/build artifacts.
+.git/
+tests/
